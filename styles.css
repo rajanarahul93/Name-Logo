@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #3498db, #2ecc71); 
+}
+
+.logo-container {
+    display: flex;
+    font-family: 'Arial', sans-serif;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.letter {
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.R { color: #e74c3c; }
+.A { color: #2ecc71; }
+.H { color: #f39c12; }
+.U { color: #9b59b6; }
+.L { color: #34495e; }
+
+.letter:hover {
+    transform: rotate(360deg) scale(1.2);
+}
